@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name = "Parallel Testing Suite">
-   <test name = "Parallel Tests" parallel = "methods">
+   <test name = "Parallel Tests" parallel = "methods"> // Exection stratergy
       <classes>
          <class name = "TestNG_Lerning.Parallel" />
       </classes>
